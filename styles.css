@@ -1,37 +1,14 @@
 
 /* Your CSS Code here. */
-* {
-    box-sizing: border-box;
-} 
-
-body {
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    margin:50px auto;
-}
-
-
-
-.btn {
-    position: absolute;
-    top:50%;
-    background-color:#0a0a23;
+#btn{
+    border: none;
+    background: black;
     color: white;
-    border:none;
-    border-radius:5px;
-    padding:15px;
-    
-  }
-  .btn:hover {
-    color: black;
-    background-color:yellow;
-    border-radius:30px; 
-    transition: 0.5s;
-
-
-
-
+    border-radius: 5px;
 }
 
-  
+#btn:hover{
+    background: blue;
+    color: black;
+    border-radius: 30px;
+}
